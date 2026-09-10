@@ -418,11 +418,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 8062061446506009758, guid: d5564533fd3e0624189e5446c17a5c31, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.5515094
+      value: 289.3
       objectReference: {fileID: 0}
     - target: {fileID: 8062061446506009758, guid: d5564533fd3e0624189e5446c17a5c31, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.0000070874976
+      value: 41.3
       objectReference: {fileID: 0}
     - target: {fileID: 8062061446506009758, guid: d5564533fd3e0624189e5446c17a5c31, type: 3}
       propertyPath: m_LocalPosition.z
@@ -477,6 +477,10 @@ PrefabInstance:
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 0c5b0ab45743f2045a73f1c5ffb36696, type: 2}
+    - target: {fileID: 440037534738554327, guid: 7a21bca4142f6584c862e6c34e4f365d, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: -876546973899608171, guid: 1eebcbb5efcf21a43929e15197fca4bf, type: 3}
     - target: {fileID: 531922003856208730, guid: 7a21bca4142f6584c862e6c34e4f365d, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -503,15 +507,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4596139466316345979, guid: 7a21bca4142f6584c862e6c34e4f365d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 222.87
       objectReference: {fileID: 0}
     - target: {fileID: 4596139466316345979, guid: 7a21bca4142f6584c862e6c34e4f365d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0
+      value: 41.56
       objectReference: {fileID: 0}
     - target: {fileID: 4596139466316345979, guid: 7a21bca4142f6584c862e6c34e4f365d, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -101.07
       objectReference: {fileID: 0}
     - target: {fileID: 4596139466316345979, guid: 7a21bca4142f6584c862e6c34e4f365d, type: 3}
       propertyPath: m_LocalRotation.w
@@ -545,6 +549,10 @@ PrefabInstance:
       propertyPath: m_Actions
       value: 
       objectReference: {fileID: -944628639613478452, guid: 35845fe01580c41289b024647b1d1c53, type: 3}
+    - target: {fileID: 4865842004109955368, guid: 7a21bca4142f6584c862e6c34e4f365d, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4865842004109955368, guid: 7a21bca4142f6584c862e6c34e4f365d, type: 3}
       propertyPath: m_Materials.Array.size
       value: 1
@@ -919,13 +927,13 @@ MonoBehaviour:
   m_LayerMask:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_UseGeometry: 0
+  m_UseGeometry: 1
   m_DefaultArea: 0
   m_GenerateLinks: 0
   m_IgnoreNavMeshAgent: 1
   m_IgnoreNavMeshObstacle: 1
-  m_OverrideTileSize: 0
-  m_TileSize: 256
+  m_OverrideTileSize: 1
+  m_TileSize: 128
   m_OverrideVoxelSize: 0
   m_VoxelSize: 0.16666667
   m_MinRegionArea: 2

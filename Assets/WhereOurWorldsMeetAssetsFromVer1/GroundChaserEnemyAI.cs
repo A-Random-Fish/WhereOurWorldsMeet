@@ -63,6 +63,8 @@ public class GroundChaserEnemyAI : MonoBehaviour
         if (Vector3.Distance(target.transform.position, transform.position) <= stoppingDistance && target != gameObject && ehc.health > 0) 
         {
             nma.speed = 0f;
+            Quaternion targetRot = Quaternion.LookRotation(target.transform.position - transform.position);
+            transform.rotation = Quaternion.Slerp(transform.rotation, targetRot, 0.1f);
             if (attackCooldown <= 0f)
             {
                 attackCooldown = attackCooldownDuration;
