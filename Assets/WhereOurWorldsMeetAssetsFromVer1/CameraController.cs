@@ -4,10 +4,10 @@ public class CameraController : MonoBehaviour
 {
     [Header("Camera Tracking and Offset")]
     [SerializeField] Transform cameraTarget;
-    [SerializeField] Vector3 cameraOffset;
+    [SerializeField] Vector3 cameraOffset = new Vector3(0,30,-20);
     [Space(0.2f)]
     [Header("Camera Controls")]
-    [SerializeField] float cameraDamping;
+    [SerializeField] float cameraDamping = 0.1f;
 
     void FixedUpdate()
     {
